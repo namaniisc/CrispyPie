@@ -26,14 +26,11 @@ const Header = () => {
                         <SelectTrigger className="w-[180px] focus:ring-0">
                             <SelectValue placeholder="Select Restaurant" />
                         </SelectTrigger>
-                    <SelectContent>
-                        <SelectItem value="cheesy-delight">Cheesy Delight</SelectItem>
-                        <SelectItem value="pizza-hut">Pizza Hut</SelectItem>
-                        <SelectItem value="kids-corner">Kids Corner</SelectItem>
-                        <SelectItem value="pizza-one">Pizza One</SelectItem>
-                        <SelectItem value="slice-heaven">Slice Heaven</SelectItem>
-                        <SelectItem value="crust-corner">Crust Corner</SelectItem>
-                    </SelectContent>
+                        <SelectContent>
+                            <SelectItem value="cheesy-delight">Cheesy Delight</SelectItem>
+                            <SelectItem value="pizza-hut">Pizza Hut</SelectItem>
+                            <SelectItem value="kids-corner">Kids corner</SelectItem>
+                        </SelectContent>
                     </Select>
                 </div>
                 <div className="flex items-center gap-x-4">
@@ -59,7 +56,7 @@ const Header = () => {
                     </div>
                     <div className="flex items-center ml-12">
                         <Phone />
-                        <span>+91 6398 6398 78</span>
+                        <span>+91 9800 098 998</span>
                     </div>
                     <Button size={'sm'}>Logout</Button>
                 </div>
